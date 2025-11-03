@@ -1,0 +1,10 @@
+services:
+  visual_studio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+      - 3001:3001
+    volumes:
+      - ../:/config/pinta-virtual-dev-environment
