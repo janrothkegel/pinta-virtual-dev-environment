@@ -57,7 +57,7 @@ In order to download the referenced Pinta code, go to the Terminal in Visual Stu
 <details>
 <summary>Step 3: Launch and attach to development container (~ 2min + install waiting time at first run)</summary>
 <br>
-When following the entire guide, the pinta-virtual-dev-environment folder should already be opened in Visual Studio Code. If you 
+When following the entire guide, the pinta-virtual-dev-environment folder should already be opened in Visual Studio Code. If not so then please open the folder.
 
 <br>
 Please make sure that the extensions for C#, C# DevKit, Container Tools, Dev Containers are installed.
@@ -74,9 +74,12 @@ Ok, we have our development container running in the background. Let's attach to
 (1) click the "Containers" extension, (2) right-click the dev container and (3) attach to it. The server will then install in the container.
 
 ![Attaching to the development container](documentation/attach.png)
+
+This will open another instance of Visual Studio Code - the one in which you will build and debug Pinta in the next step.
+
 </details>
 
-This will open another instance of Visual Studio Code - the one in which you will will build and debug Pinta in the next step.
+
 
 <details>
 <summary>Step 4: Build & Debug Pinta (~ 2min + waiting times)</summary>
