@@ -11,7 +11,7 @@ There are probably a couple developers outside who face the same issue. And here
 
 ![Screenshot of Visual Studio Code running in the host next to Pinta running in a Fedora Desktop container](documentation/screen.png)
 
-<h1>Pre-requisites</h1>
+<h1>Prerequisites</h1>
 
 You need
 
